@@ -1,0 +1,9 @@
+version: "2"
+services:
+  php:
+    image: php:7.3-fpm
+    volumes:
+      - "./:/home"
+    ports:
+      - 9900:80
+    restart: always

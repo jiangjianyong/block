@@ -1,0 +1,7 @@
+{
+  "name": "block",
+  "type": "project",
+  "require": {
+    "php": ">=7.1.13"
+  }
+}
